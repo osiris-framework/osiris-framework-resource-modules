@@ -1,0 +1,332 @@
+intext:*@example.com.co filetype:xlsx
+intext:@example.com.co -site:example.com.co -"no responder" OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt
+"correo electrónico" inurl:contacto site:example.com.co
+"correo electrónico" site:example.com.co
+intext:correo electrónico site:example.com.co
+intitle:contacto site:example.com.co
+inurl:contacto site:example.com.co
+site:example.com.co (intitle:contact OR intitle:contacto) (email OR correo) (at OR arroba) example.com.co -"no responder" OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt
+site:example.com.co "contact email" OR "email de contacto"
+site:example.com.co "contacto" "correo electrónico" filetype:rtf
+site:example.com.co "contacto" "correo electrónico" -inurl:ayuda filetype:rtf
+site:example.com.co "contacto" "correo electrónico" -inurl:ayuda -inurl:example.com.co/soporte filetype:rtf
+site:example.com.co "contacto@example.com.co"
+site:example.com.co contacto@example.com.co
+site:example.com.co (contact OR contacto) (email OR correo) (address OR direccion)
+site:example.com.co (contact OR contacto) (us OR nosotros) (at OR arroba) example.com.co
+site:example.com.co (contact OR contacto) (us OR nosotros) (at OR arroba) example.com.co -filetype:pdf
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion)
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion) (at OR arroba) example.com.co
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact AND -filetype:pdf
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact OR filetype:docx OR filetype:xlsx OR filetype:pptx OR filetype:txt
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf -inurl:contact
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -inurl:contact AND -"no responder" AND -filetype:doc
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -inurl:contact -"no responder"
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -inurl:contact OR filetype:docx OR filetype:xlsx OR filetype:pptx OR filetype:txt OR filetype:pdf
+site:example.com.co (contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -"no responder" -inurl:contact
+site:example.com.co (contact OR contacto) (us OR nosotros) -"no responder"
+site:example.com.co "contact us" OR "contacto"
+site:example.com.co "correo" "contacto" -inurl:ayuda filetype:csv
+site:example.com.co "correo" "contacto" -inurl:ayuda filetype:xml
+site:example.com.co "correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte filetype:odt
+site:example.com.co "correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contactanos filetype:xml
+site:example.com.co "correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion filetype:csv
+site:example.com.co "correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion filetype:odt
+site:example.com.co "correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos filetype:csv
+site:example.com.co "correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos filetype:xml
+site:example.com.co "correo" "contacto" -inurl:contactanos filetype:odt
+site:example.com.co "correo" "contacto" -inurl:contactanos -inurl:example.com.co/soporte filetype:txt
+site:example.com.co "correo" "contacto" -inurl:contactanos -inurl:example.com.co/soporte -inurl:example.com.co/ayuda filetype:txt
+site:example.com.co "correo" "contacto" -inurl:contactenos filetype:txt
+site:example.com.co "correo electrónico" AND "contacto"
+site:example.com.co "correo electrónico" ~contacto
+site:example.com.co "correo electrónico" *@example.com.co
+site:example.com.co "correo electrónico" *@example.com.co filetype:pdf
+site:example.com.co "correo electrónico" *@example.com.co filetype:xlsx
+site:example.com.co "correo electrónico" filetype:doc "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:docx
+site:example.com.co "correo electrónico" filetype:docx "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:html "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:ods "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:odt "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:pdf
+site:example.com.co "correo electrónico" filetype:pptx
+site:example.com.co "correo electrónico" filetype:pptx "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:rtf "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:txt
+site:example.com.co "correo electrónico" filetype:txt "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:xls "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" filetype:xlsx
+site:example.com.co "correo electrónico" filetype:xml "nombre de contacto"@example.com.co
+site:example.com.co "correo electrónico" inanchor:example.com.co
+site:example.com.co "correo electrónico" inanchor:example.com.co -intext:contacto
+site:example.com.co "correo electrónico" info@example.com.co OR contacto@example.com.co OR ventas@example.com.co
+site:example.com.co "correo electrónico" -intext:contacto
+site:example.com.co "correo electrónico" -intext:example.com.co -intext:contacto
+site:example.com.co "correo electrónico" -inurl:contacto
+site:example.com.co "correo electrónico" -inurl:contacto -inurl:example.com.co/informacion filetype:pptx
+site:example.com.co "correo electrónico" -inurl:contacto -inurl:example.com.co/informacion filetype:xlsx
+site:example.com.co "correo electrónico" -inurl:contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos filetype:xlsx
+site:example.com.co "correo electrónico" -inurl:contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos -inurl:example.com.co/ayuda filetype:xlsx
+site:example.com.co "correo electrónico" -inurl:contacto -inurl:example.com.co/informacion -inurl:example.com.co/contacto -inurl:example.com.co/ayuda filetype:pptx
+site:example.com.co "correo electrónico" -inurl:contacto -inurl:example.com.co/informacion -inurl:example.com.co/contacto -inurl:example.com.co/ayuda -inurl:example.com.co/soporte filetype:pptx
+site:example.com.co "correo electrónico" -inurl:example.com.co -inurl:contacto
+site:example.com.co "correo electrónico" link:example.com.co
+site:example.com.co "correo electrónico" link:example.com.co -inurl:contacto
+site:example.com.co "correo electrónico" "nombre de contacto"@example.com.co
+site:example.com.co ("correo electrónico" OR "contacto" OR "dirección de correo") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:html
+site:example.com.co ("correo electrónico" OR "contacto" OR "dirección de correo") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:rtf
+site:example.com.co ("correo electrónico" OR "contacto" OR "dirección de correo") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:xlsx
+site:example.com.co "correo electrónico" OR "email"
+site:example.com.co ("correo" OR "contacto" OR "dirección de correo electrónico") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:docx
+site:example.com.co ("correo" OR "contacto" OR "dirección de correo electrónico") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:odt
+site:example.com.co ("correo" OR "contacto" OR "dirección de correo electrónico") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:txt
+site:example.com.co ("correo" OR "contacto" OR "dirección de correo electrónico") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:xml
+site:example.com.co (customer OR cliente) (service OR servicio) (at OR arroba) example.com.co
+site:example.com.co (customer OR cliente) (service OR servicio) (email OR correo)
+site:example.com.co (customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co
+site:example.com.co (customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -filetype:doc
+site:example.com.co (customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -filetype:pdf
+site:example.com.co (customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -"no responder"
+site:example.com.co (customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -"no responder" AND -inurl:contact
+site:example.com.co (customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -"no responder" OR filetype:docx OR filetype:xlsx OR filetype:pptx OR filetype:txt
+site:example.com.co "customer service" OR "servicio al cliente"
+site:example.com.co "dirección de correo electrónico"
+site:example.com.co "dirección de correo electrónico" -inurl:example.com.co/support filetype:html
+site:example.com.co "dirección de correo electrónico" -inurl:example.com.co/support filetype:pdf
+site:example.com.co "dirección de correo electrónico" -inurl:example.com.co/support -inurl:example.com.co/soporte filetype:html
+site:example.com.co "dirección de correo electrónico" -inurl:example.com.co/support -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion filetype:html
+site:example.com.co "dirección de correo electrónico" -inurl:example.com.co/support -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion filetype:pdf
+site:example.com.co "dirección de correo electrónico" -inurl:example.com.co/support -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos filetype:pdf
+site:example.com.co "dirección de correo electrónico" -inurl:mailto -inurl:example.com.co/contacto filetype:doc
+site:example.com.co "dirección de correo electrónico" -inurl:mailto -inurl:example.com.co/contacto filetype:docx
+site:example.com.co "dirección de correo electrónico" -inurl:mailto -inurl:example.com.co/contacto -inurl:example.com.co/ayuda filetype:docx
+site:example.com.co "email address"
+site:example.com.co "email address" filetype:pdf
+"site:example.com.co filetype:xlsx"
+site:example.com.co "info@example.com.co"
+site:example.com.co (info OR informacion) (at OR arroba) example.com.co
+site:example.com.co (info OR informacion) (at OR arroba) example.com.co -inurl:contact
+site:example.com.co (info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co
+site:example.com.co (info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -filetype:pdf
+site:example.com.co (info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact
+site:example.com.co (info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -"no responder"
+site:example.com.co (info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -"no responder" AND -filetype:pdf
+site:example.com.co (info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -"no responder" OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt OR filetype:pdf
+site:example.com.co (info OR informacion) (email OR correo) (at OR arroba) example.com.co -inurl:contact
+site:example.com.co (intitle:contact OR intitle:contacto) (email OR correo)
+site:example.com.co (intitle:contact OR intitle:contacto) (email OR correo) (at OR arroba) example.com.co
+site:example.com.co (intitle:contact OR intitle:contacto) (email OR correo) (at OR arroba) example.com.co -"no responder"
+site:example.com.co (intitle:contact OR intitle:contacto) (email OR correo) (at OR arroba) example.com.co -"no responder" AND -filetype:pdf
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (at OR arroba) example.com.co
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (at OR arroba) example.com.co -"no responder"
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (at OR arroba) example.com.co -"no responder" -filetype:pdf
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo)
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf AND -inurl:contact AND -"no responder"
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf -inurl:contact
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf OR filetype:xlsx OR filetype:pptx OR filetype:txt OR filetype:doc
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -"no responder"
+site:example.com.co (intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -"no responder" -filetype:pdf
+site:example.com.co intitle:"direccion de correo"
+site:example.com.co inurl:"contact form"
+site:example.com.co -inurl:contacto -intitle:contacto -intext:correo
+site:example.com.co -inurl:contacto intitle:contacto intext:correo
+site:example.com.co inurl:contacto intitle:contacto intext:correo
+site:example.com.co (inurl:support OR inurl:soporte) (at OR arroba) example.com.co
+site:example.com.co (inurl:support OR inurl:soporte) (email OR correo)
+site:example.com.co (inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co
+site:example.com.co (inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co -filetype:pdf
+site:example.com.co (inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co -filetype:pdf AND -"no responder"
+site:example.com.co (inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co -filetype:pdf OR filetype:xlsx OR filetype:pptx OR filetype:txt
+site:example.com.co (inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co -"no responder"
+site:example.com.co -"no responder"
+site:example.com.co "sales email" inurl:contact
+site:example.com.co (sales OR ventas) (at OR arroba) example.com.co -"no responder"
+site:example.com.co (sales OR ventas) (email OR correo) (address OR direccion)
+site:example.com.co (sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co
+site:example.com.co (sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact
+site:example.com.co (sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact AND -filetype:pdf
+site:example.com.co (sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt
+site:example.com.co (sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -"no responder"
+site:example.com.co (sales OR ventas) (email OR correo) (at OR arroba) example.com.co -"no responder"
+site:example.com.co "support email" filetype:doc
+site:example.com.co (support OR soporte) (at OR arroba) example.com.co -inurl:contact
+site:example.com.co (support OR soporte) (at OR arroba) example.com.co -inurl:contact -"no responder"
+site:example.com.co (support OR soporte) (email OR correo) (at OR arroba) example.com.co -filetype:doc
+site:example.com.co (support OR soporte) (email OR correo) (at OR arroba) example.com.co -filetype:doc AND -"no responder"
+site:example.com.co (support OR soporte) (email OR correo) (at OR arroba) example.com.co -filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt OR filetype:pdf
+site:example.com.co (support OR soporte) (email OR correo) (at OR arroba) example.com.co -inurl:contact
+site:example.com.co (support OR soporte) (email OR correo) (at OR arroba) example.com.co -inurl:contact -"no responder"
+site:example.com.co (support OR soporte) (email OR correo) (at OR arroba) example.com.co -"no responder"
+site:example.com.co (support OR soporte) (email OR correo) filetype:doc -inurl:contact AND -filetype:pdf AND -"no responder"
+site:example.com.co (support OR soporte) (email OR correo) filetype:doc -inurl:contact -filetype:pdf
+site:example.com.co (support OR soporte) (email OR correo) filetype:doc -inurl:contact -"no responder"
+site:example.com.co (support OR soporte) (email OR correo) filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt OR filetype:pdf -inurl:contact OR filetype:docx OR filetype:xlsx OR filetype:pptx OR filetype:txt
+site:example.com.co (intext:@example.com.co) example.com.co -"no responder" OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt
+intext:@example.com.co -site:example.com.co -"no responder" OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt
+(intitle:contact OR intitle:contacto) (email OR correo) (at OR arroba) example.com.co -"no responder" OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt
+"contact email" OR "email de contacto"
+"contacto" "correo electrónico" filetype:rtf
+"contacto" "correo electrónico" -inurl:ayuda filetype:rtf
+"contacto" "correo electrónico" -inurl:ayuda -inurl:example.com.co/soporte filetype:rtf
+"contacto@example.com.co"
+contacto@example.com.co
+(contact OR contacto) (email OR correo) (address OR direccion)
+(contact OR contacto) (us OR nosotros) (at OR arroba) example.com.co
+(contact OR contacto) (us OR nosotros) (at OR arroba) example.com.co -filetype:pdf
+(contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion)
+(contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion) (at OR arroba) example.com.co
+(contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact
+(contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact AND -filetype:pdf
+(contact OR contacto) (us OR nosotros) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact OR filetype:docx OR filetype:xlsx OR filetype:pptx OR filetype:txt
+(contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co
+(contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf
+(contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf -inurl:contact
+(contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -inurl:contact AND -"no responder" AND -filetype:doc
+(contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -inurl:contact -"no responder"
+(contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -inurl:contact OR filetype:docx OR filetype:xlsx OR filetype:pptx OR filetype:txt OR filetype:pdf
+(contact OR contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -"no responder" -inurl:contact
+(contact OR contacto) (us OR nosotros) -"no responder"
+"contact us" OR "contacto"
+"correo" "contacto" -inurl:ayuda filetype:csv
+"correo" "contacto" -inurl:ayuda filetype:xml
+"correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte filetype:odt
+"correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contactanos filetype:xml
+"correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion filetype:csv
+"correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion filetype:odt
+"correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos filetype:csv
+"correo" "contacto" -inurl:ayuda -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos filetype:xml
+"correo" "contacto" -inurl:contactanos filetype:odt
+"correo" "contacto" -inurl:contactanos -inurl:example.com.co/soporte filetype:txt
+"correo" "contacto" -inurl:contactanos -inurl:example.com.co/soporte -inurl:example.com.co/ayuda filetype:txt
+"correo" "contacto" -inurl:contactenos filetype:txt
+"correo electrónico" AND "contacto"
+"correo electrónico" ~contacto
+"correo electrónico" *@example.com.co
+"correo electrónico" *@example.com.co filetype:pdf
+"correo electrónico" *@example.com.co filetype:xlsx
+"correo electrónico" filetype:doc "nombre de contacto"@example.com.co
+"correo electrónico" filetype:docx
+"correo electrónico" filetype:docx "nombre de contacto"@example.com.co
+"correo electrónico" filetype:html "nombre de contacto"@example.com.co
+"correo electrónico" filetype:ods "nombre de contacto"@example.com.co
+"correo electrónico" filetype:odt "nombre de contacto"@example.com.co
+"correo electrónico" filetype:pdf
+"correo electrónico" filetype:pptx
+"correo electrónico" filetype:pptx "nombre de contacto"@example.com.co
+"correo electrónico" filetype:rtf "nombre de contacto"@example.com.co
+"correo electrónico" filetype:txt
+"correo electrónico" filetype:txt "nombre de contacto"@example.com.co
+"correo electrónico" filetype:xls "nombre de contacto"@example.com.co
+"correo electrónico" filetype:xlsx
+"correo electrónico" filetype:xml "nombre de contacto"@example.com.co
+"correo electrónico" inanchor:example.com.co
+"correo electrónico" inanchor:example.com.co -intext:contacto
+"correo electrónico" info@example.com.co OR contacto@example.com.co OR ventas@example.com.co
+"correo electrónico" -intext:contacto
+"correo electrónico" -intext:example.com.co -intext:contacto
+"correo electrónico" -inurl:contacto
+"correo electrónico" -inurl:contacto -inurl:example.com.co/informacion filetype:pptx
+"correo electrónico" -inurl:contacto -inurl:example.com.co/informacion filetype:xlsx
+"correo electrónico" -inurl:contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos filetype:xlsx
+"correo electrónico" -inurl:contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos -inurl:example.com.co/ayuda filetype:xlsx
+"correo electrónico" -inurl:contacto -inurl:example.com.co/informacion -inurl:example.com.co/contacto -inurl:example.com.co/ayuda filetype:pptx
+"correo electrónico" -inurl:contacto -inurl:example.com.co/informacion -inurl:example.com.co/contacto -inurl:example.com.co/ayuda -inurl:example.com.co/soporte filetype:pptx
+"correo electrónico" -inurl:example.com.co -inurl:contacto
+"correo electrónico" link:example.com.co
+"correo electrónico" link:example.com.co -inurl:contacto
+"correo electrónico" "nombre de contacto"@example.com.co
+("correo electrónico" OR "contacto" OR "dirección de correo") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:html
+("correo electrónico" OR "contacto" OR "dirección de correo") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:rtf
+("correo electrónico" OR "contacto" OR "dirección de correo") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:xlsx
+"correo electrónico" OR "email"
+("correo" OR "contacto" OR "dirección de correo electrónico") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:docx
+("correo" OR "contacto" OR "dirección de correo electrónico") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:odt
+("correo" OR "contacto" OR "dirección de correo electrónico") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:txt
+("correo" OR "contacto" OR "dirección de correo electrónico") -inurl:(example.com.co/support OR example.com.co/soporte OR example.com.co/contacto OR example.com.co/informacion OR example.com.co/ayuda OR example.com.co/contactanos) filetype:xml
+(customer OR cliente) (service OR servicio) (at OR arroba) example.com.co
+(customer OR cliente) (service OR servicio) (email OR correo)
+(customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co
+(customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -filetype:doc
+(customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -filetype:pdf
+(customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -"no responder"
+(customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -"no responder" AND -inurl:contact
+(customer OR cliente) (service OR servicio) (email OR correo) (at OR arroba) example.com.co -"no responder" OR filetype:docx OR filetype:xlsx OR filetype:pptx OR filetype:txt
+"customer service" OR "servicio al cliente"
+"dirección de correo electrónico"
+"dirección de correo electrónico" -inurl:example.com.co/support filetype:html
+"dirección de correo electrónico" -inurl:example.com.co/support filetype:pdf
+"dirección de correo electrónico" -inurl:example.com.co/support -inurl:example.com.co/soporte filetype:html
+"dirección de correo electrónico" -inurl:example.com.co/support -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion filetype:html
+"dirección de correo electrónico" -inurl:example.com.co/support -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion filetype:pdf
+"dirección de correo electrónico" -inurl:example.com.co/support -inurl:example.com.co/soporte -inurl:example.com.co/contacto -inurl:example.com.co/informacion -inurl:example.com.co/contactanos filetype:pdf
+"dirección de correo electrónico" -inurl:mailto -inurl:example.com.co/contacto filetype:doc
+"dirección de correo electrónico" -inurl:mailto -inurl:example.com.co/contacto filetype:docx
+"dirección de correo electrónico" -inurl:mailto -inurl:example.com.co/contacto -inurl:example.com.co/ayuda filetype:docx
+"email address"
+"email address" filetype:pdf
+"filetype:xlsx"
+"info@example.com.co"
+(info OR informacion) (at OR arroba) example.com.co
+(info OR informacion) (at OR arroba) example.com.co -inurl:contact
+(info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co
+(info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -filetype:pdf
+(info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact
+(info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -"no responder"
+(info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -"no responder" AND -filetype:pdf
+(info OR informacion) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -"no responder" OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt OR filetype:pdf
+(info OR informacion) (email OR correo) (at OR arroba) example.com.co -inurl:contact
+(intitle:contact OR intitle:contacto) (email OR correo)
+(intitle:contact OR intitle:contacto) (email OR correo) (at OR arroba) example.com.co
+(intitle:contact OR intitle:contacto) (email OR correo) (at OR arroba) example.com.co -"no responder"
+(intitle:contact OR intitle:contacto) (email OR correo) (at OR arroba) example.com.co -"no responder" AND -filetype:pdf
+(intitle:contact OR intitle:contacto) (us OR nosotros) (at OR arroba) example.com.co
+(intitle:contact OR intitle:contacto) (us OR nosotros) (at OR arroba) example.com.co -"no responder"
+(intitle:contact OR intitle:contacto) (us OR nosotros) (at OR arroba) example.com.co -"no responder" -filetype:pdf
+(intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo)
+(intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf
+(intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf AND -inurl:contact AND -"no responder"
+(intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf -inurl:contact
+(intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -filetype:pdf OR filetype:xlsx OR filetype:pptx OR filetype:txt OR filetype:doc
+(intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -"no responder"
+(intitle:contact OR intitle:contacto) (us OR nosotros) (email OR correo) (at OR arroba) example.com.co -"no responder" -filetype:pdf
+intitle:"direccion de correo"
+inurl:"contact form"
+-inurl:contacto -intitle:contacto -intext:correo
+-inurl:contacto intitle:contacto intext:correo
+inurl:contacto intitle:contacto intext:correo
+(inurl:support OR inurl:soporte) (at OR arroba) example.com.co
+(inurl:support OR inurl:soporte) (email OR correo)
+(inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co
+(inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co -filetype:pdf
+(inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co -filetype:pdf AND -"no responder"
+(inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co -filetype:pdf OR filetype:xlsx OR filetype:pptx OR filetype:txt
+(inurl:support OR inurl:soporte) (email OR correo) (at OR arroba) example.com.co -"no responder"
+-"no responder"
+"sales email" inurl:contact
+(sales OR ventas) (at OR arroba) example.com.co -"no responder"
+(sales OR ventas) (email OR correo) (address OR direccion)
+(sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co
+(sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact
+(sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact AND -filetype:pdf
+(sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -inurl:contact OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt
+(sales OR ventas) (email OR correo) (address OR direccion) (at OR arroba) example.com.co -"no responder"
+(sales OR ventas) (email OR correo) (at OR arroba) example.com.co -"no responder"
+"support email" filetype:doc
+(support OR soporte) (at OR arroba) example.com.co -inurl:contact
+(support OR soporte) (at OR arroba) example.com.co -inurl:contact -"no responder"
+(support OR soporte) (email OR correo) (at OR arroba) example.com.co -filetype:doc
+(support OR soporte) (email OR correo) (at OR arroba) example.com.co -filetype:doc AND -"no responder"
+(support OR soporte) (email OR correo) (at OR arroba) example.com.co -filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt OR filetype:pdf
+(support OR soporte) (email OR correo) (at OR arroba) example.com.co -inurl:contact
+(support OR soporte) (email OR correo) (at OR arroba) example.com.co -inurl:contact -"no responder"
+(support OR soporte) (email OR correo) (at OR arroba) example.com.co -"no responder"
+(support OR soporte) (email OR correo) filetype:doc -inurl:contact AND -filetype:pdf AND -"no responder"
+(support OR soporte) (email OR correo) filetype:doc -inurl:contact -filetype:pdf
+(support OR soporte) (email OR correo) filetype:doc -inurl:contact -"no responder"
+(support OR soporte) (email OR correo) filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt OR filetype:pdf -inurl:contact OR filetype:docx OR filetype:xlsx OR filetype:pptx OR filetype:txt
+(intext:@example.com.co) example.com.co -"no responder" OR filetype:doc OR filetype:xls OR filetype:ppt OR filetype:txt
